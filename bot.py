@@ -6,7 +6,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # ---------------- TOKEN از محیط ----------------
-TOKEN = os.environ.get("8748626214:AAGwl4eviXg3rqyNvdINX7nbL1FVMRos-Eg")
+TOKEN = os.environ.get("TOKEN")
 
 # ---------------- Flask برای Render ----------------
 web = Flask(__name__)
